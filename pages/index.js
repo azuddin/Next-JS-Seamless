@@ -526,6 +526,7 @@ export default function Checkout() {
                   </label>
                   <div className="mt-1">
                     <input
+                      value='azuddin@chip-in.asia'
                       type="email"
                       id="email-address"
                       name="email-address"
@@ -546,6 +547,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='ahmad'
                         type="text"
                         id="first-name"
                         name="first-name"
@@ -561,6 +563,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='azuddin'
                         type="text"
                         id="last-name"
                         name="last-name"
@@ -576,6 +579,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='chip in'
                         type="text"
                         name="company"
                         id="company"
@@ -590,6 +594,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='kuala lumpur'
                         type="text"
                         name="address"
                         id="address"
@@ -605,6 +610,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='mahkota parade'
                         type="text"
                         name="apartment"
                         id="apartment"
@@ -619,6 +625,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='kuala lumpur'
                         type="text"
                         name="city"
                         id="city"
@@ -640,6 +647,7 @@ export default function Checkout() {
                         className="block w-full border-gray-300 rounded-md shadow-sm focus:ring-green-500 focus:border-green-500 sm:text-sm"
                       >
                         <option>United States</option>
+                        <option selected>Malaysia</option>
                         <option>Canada</option>
                         <option>Mexico</option>
                       </select>
@@ -652,6 +660,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='kuala lumpur'
                         type="text"
                         name="region"
                         id="region"
@@ -667,6 +676,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='58200'
                         type="text"
                         name="postal-code"
                         id="postal-code"
@@ -682,6 +692,7 @@ export default function Checkout() {
                     </label>
                     <div className="mt-1">
                       <input
+                        value='018123456789'
                         type="text"
                         name="phone"
                         id="phone"
@@ -945,6 +956,7 @@ export default function Checkout() {
                     Email address
                   </label>
                   <input
+                    value='azuddin@chip-in.asia'
                     id="newsletter-email-address"
                     type="text"
                     autoComplete="email"
